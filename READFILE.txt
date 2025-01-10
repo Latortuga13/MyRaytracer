@@ -1,0 +1,15 @@
+Seth
+schng@ucsd.edu
+
+https://raviucsdgroup.s3.amazonaws.com/hw3/8132771c72a2d2a998b0ca6ac89226dc/20240320053309/index.html
+
+if you want to compile and create an image run the following command
+
+g++  main.cpp readfile.cpp transform.cpp -o main.exe -L. -lFreeImage
+
+then run  
+./main.exe scene(whatevernumber).test scene(whatevernumber).png
+
+the output will be in scene(whatevernumber).png.
+
+code was made on windows.
